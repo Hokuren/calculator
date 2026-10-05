@@ -1,0 +1,64 @@
+.controls {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+}
+
+.calculator {
+    background: #2c2c2c;
+    border-radius: 28px;
+    padding: 16px;
+    width: 240px;
+    flex-shrink: 0;
+    justify-self: center;
+}
+
+.screen {
+    background: #1c1c1e;
+    border-radius: 16px;
+    padding: 16px;
+    margin-bottom: 12px;
+}
+
+.after {
+    font-size: 13px;
+    color: #8e8e93;
+    text-align: right;
+    min-height: 18px;
+    margin-bottom: 6px;
+}
+.current {
+    font-size: 44px;
+    font-weight: 400;
+    color: #ffffff !important;
+    text-align: right;
+    line-height: 1;
+}
+.btn {
+    height: 48px;
+    border-radius: 50%;
+    border: none;
+    font-size: 17px;
+    font-weight: 400;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: system-ui;
+    border-radius: 12px;
+}
+.btn-op {
+    background: #ff9f0a;
+    color: #ffffff !important;
+}
+.btn-fn {
+    background: #a5a5a5;
+    color: #000000 !important;
+}
+.btn-no {
+    background: #505050;
+    color: #ffffff !important;
+}
+.cero {
+    grid-column: span 2;
+}
